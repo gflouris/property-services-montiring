@@ -46,7 +46,7 @@ class BuildingServicesMonitor:
 
     def complaint_input_section(self):
         """Create input section for new complaints"""
-        st.header("Report Building Service Issues")
+        st.header("Report Service Issues")
 
         # Complaint details inputs
         col1, col2 = st.columns(2)
@@ -203,7 +203,7 @@ class BuildingServicesMonitor:
 
     def main(self):
         """Main Streamlit app configuration"""
-        st.title("Greenland Services Monitoring System")
+        st.title("Fix my building")
 
         # Create tabs
         tab1, tab2 = st.tabs(["Report Issue", "Service Analytics"])
