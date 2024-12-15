@@ -188,9 +188,9 @@ class BuildingServicesMonitor:
             y="Rolling Sum Complaints",
             color="Building",
             line_dash="Service",
-            title="12-Hour Rolling Average of Complaints by Building and Service",
+            title="12-Hour Rolling Sum of Complaints by Building and Service",
             labels={
-                "Rolling Sum Complaints": "Average Complaints",
+                "Rolling Sum Complaints": "Total Complaints",
                 "timestamp": "Date",
             },
             markers=True,
